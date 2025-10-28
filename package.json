@@ -7,8 +7,7 @@
     "lint": "eslint --ext .ts,.tsx .",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "release": "standard-version --no-verify",
-    "preinstall": "node preinstall.js"
+    "release": "standard-version --no-verify"
   },
   "husky": {
     "hooks": {
